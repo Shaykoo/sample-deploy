@@ -18,6 +18,10 @@ app.get('/tour', (req,res)=>{
     res.send('Here comes the rockstar')
 })
 
+app.get('/app', (req,res)=>{
+    res.send('New app in town')
+})
+
 app.listen(PORT,()=>{
     console.log('server is running')
 })
