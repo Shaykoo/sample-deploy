@@ -14,6 +14,10 @@ app.get('/bye',(req,res)=>{
     res.send(`Bye! ${req.query.name}`)
 })
 
+app.get('tour', (req,res)=>{
+    res.send('Here comes the rockstar')
+})
+
 app.listen(PORT,()=>{
     console.log('server is running')
 })
