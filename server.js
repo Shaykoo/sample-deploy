@@ -14,7 +14,7 @@ app.get('/bye',(req,res)=>{
     res.send(`Bye! ${req.query.name}`)
 })
 
-app.get('tour', (req,res)=>{
+app.get('/tour', (req,res)=>{
     res.send('Here comes the rockstar')
 })
 
